@@ -1,0 +1,46 @@
+@media screen and (max-width:1024px) {
+    .header-container {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .failures {
+        flex-direction: column;
+    }
+
+    .plans-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mindset h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-container h1 {
+        font-size: 40px;
+    }
+
+    header {
+        background-image:linear-gradient(to right , rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.475)), url('img/banner.png');
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:320px){
+    .plans-items{
+        grid-template-columns: 1fr;
+        gap: 50px;
+        
+    }
+    .mindset{
+        padding: 30px;
+    }
+    .mindset h2{
+        font-size: 30px;
+        width: auto;
+    }
+}
